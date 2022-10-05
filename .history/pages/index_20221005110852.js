@@ -5,7 +5,6 @@ import { useState } from 'react';
 
 export default function Home() {
   //before, during and after
-  //test
   const [loginState, setLoginState] = useState("before");
   var c = "blue"; //default
   const r = useRouter();
